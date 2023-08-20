@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position absolute, relative, fixed and sticky</title>
     <style>
+        .container{
+
+        }
         .box{
             display: inline-block;
             border: 2px solid red;
@@ -13,10 +16,13 @@
             margin: 2px;
         }
         #box3{
-            position: absolute; /* relative to its normal position */
-            top: 34px;
-            left: 34px;
+            /*position: absolute;  relativeTo the position of its first parent */
+            /*position: relative;  relative to Its normal position and believe a gap at its normal position */
 
+            /* position: fixed; */
+            right: 34px;
+            bottom: 2px;
+            position: sticky;
         }
     </style>
 </head>
