@@ -14,5 +14,22 @@ public class Matrices2 {
 
         int[][] arr = new int[xaxis][yaxis];
 
+        for(int i = 0; i<xaxis; i++){
+            for(int j = 0; j<yaxis; j++){
+                System.out.println("Enter for Value: "+i+j);
+                arr[i][j]=sc.nextInt();
+
+            }
+            
+        }
+        for(int i = 0; i<xaxis; i++){
+            for(int j = 0; j<yaxis; j++){
+                System.out.print(arr[i][j]);
+                System.out.print(" ");
+
+            }
+            System.out.println("");
+
     }
+}
 }
