@@ -13,9 +13,9 @@ public class IntCheck {
 
         for (int i = 0; i < arr.length; i++) {
             if (a == arr[i]) {
-                System.out.println("YES, FOUND AT: "+i);
+                System.out.println("YES, FOUND AT: " + i);
                 break;
-                
+
             }
         }
 
