@@ -20,7 +20,7 @@ public class maxMinElement {
             System.out.println(arr[i]);
         }
         System.out.println("Max ElementL: "+ arr[len-1]);
-        System.out.println("Min ElementL: "+ arr[1]);
+        System.out.println("Min ElementL: "+ arr[0]);
         
     }
     
