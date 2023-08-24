@@ -12,6 +12,7 @@ public class Str_LowerCase {
 
         System.out.println("Lowercase: "+tlc);
 
+        
         k=k.replaceAll(" ", "_");
         System.out.println(k);
     }
