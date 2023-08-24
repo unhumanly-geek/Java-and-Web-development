@@ -25,7 +25,7 @@ public class sortedORnot {
 
             }
         }
-        if (flag=true) {
+        if (flag) {
             System.out.println("Array is sorted");
             
         }
