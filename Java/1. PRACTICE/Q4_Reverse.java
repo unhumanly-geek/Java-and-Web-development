@@ -3,6 +3,16 @@ import java.util.Scanner;
 public class Q4_Reverse {
 
     public static void RevArr(int[] arr, int x){
+        int[] temp = new int[x];
+
+        for (int i = 0; i < x; i++) {
+            temp[i] = arr[x-i-1];
+        }
+        for (int i = 0; i < x; i++) {
+            System.out.println(temp[i]);
+        }
+        
+        
 
     }
 
