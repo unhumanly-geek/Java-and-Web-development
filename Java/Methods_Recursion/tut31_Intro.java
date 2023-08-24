@@ -3,10 +3,11 @@ package Methods_Recursion;
 import java.util.Scanner;
 
 public class tut31_Intro {
-    static int logic(int x, int y){
-         return x+y;
+    static int logic(int x, int y) {
+        return x + y;
 
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,5 +18,5 @@ public class tut31_Intro {
 
         System.out.println(c);
     }
-    
+
 }
