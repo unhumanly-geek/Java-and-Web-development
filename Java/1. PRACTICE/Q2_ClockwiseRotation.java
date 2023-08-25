@@ -2,21 +2,13 @@ import java.util.Scanner;
 
 public class Q2_ClockwiseRotation {
     static void ClockwiseRotation(int[] arr, int x, int r) {
+        int[] temp = new int [x];
 
-        int[] temp = new int[x];
-        // System.out.println("first rotation");
-        for(int i =0; i<r; i++){
-            temp[i]=arr[x-r+i];
-
-        }
-        // System.out.println("second rotation");
-        for(int i =0; i<x-r; i++){
-            temp[x-r+i+1]=arr[i]; // fixed the index here
-        }
-        System.out.println("output");
         for(int i =0; i<x; i++){
-            System.out.println(temp[i]);
+            temp[i]=arr[x-i+1];
         }
+
+
 
 
     }
