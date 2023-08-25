@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Q7_2SumQ {
 
     static void sum(int[] arr, int k) {
+        boolean flag = true;
 
         for(int i =0; i<arr.length; i++){
             for(int j =1; j<arr.length; j++){
@@ -10,7 +11,14 @@ public class Q7_2SumQ {
                     System.out.printf("Sum found at Index %d and %d: ", i, j);
                     
                 }
+                else{
+                    flag = false;
+                    
+                }
             }
+        }
+        if (flag==false) {
+            System.out.println("Not found");
         }
         
 
