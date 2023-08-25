@@ -5,7 +5,7 @@ public class Q19_Duplicates {
     static void duplicate(int[] arr, int k) {
 
         for (int i = 0; i < k; i++) {
-            for (int j = i+1; j < k; j++) {
+            for (int j = i + 1; j < k; j++) {
                 if (arr[i] == arr[j]) {
                     System.out.println("Duplicate found: " + arr[j]);
 
