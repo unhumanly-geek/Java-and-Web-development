@@ -11,7 +11,7 @@ public class Q2_ClockwiseRotation {
         }
         System.out.println("second rotation");
         for(int i =0; i<x-r; i++){
-            temp[x-r+i-1]=arr[i];
+            temp[x-r+i+1]=arr[i];
         }
         System.out.println("output");
         for(int i =0; i<x; i++){
