@@ -1,3 +1,5 @@
+import java.util.*;
+
 
 public class tut28_multiDimensionalArray {
     public static void main(String[] args) {
