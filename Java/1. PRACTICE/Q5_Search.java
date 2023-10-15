@@ -17,8 +17,7 @@ public class Q5_Search {
         if (flag) {
             System.out.println("Element is here");
 
-        }
-        else{
+        } else {
             System.out.println("not found");
         }
 
