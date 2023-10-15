@@ -25,8 +25,8 @@ public class tut14_Methods {
             //System.out.println(name.replace('r', 'p'));
             //System.out.println(name.replace("r", "ier"));
     
-            //System.out.println(name.startsWith("Har"));
-            //System.out.println(name.endsWith("dd"));
+            System.out.println(name.startsWith("Har"));
+            System.out.println(name.endsWith("dd"));
     
             //System.out.println(name.charAt(4));
     
@@ -36,9 +36,9 @@ public class tut14_Methods {
             //System.out.println(modifiedName.lastIndexOf("rry", 7));
     
             //System.out.println(name.equals("Harry"));
-            System.out.println(name.equalsIgnoreCase("HarRY"));
+            // System.out.println(name.equalsIgnoreCase("HarRY"));
     
-            System.out.println("I am escape sequence\tdouble quote");
+            // System.out.println("I am escape sequence\tdouble quote");
     
     
     
