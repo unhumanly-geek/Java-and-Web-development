@@ -5,22 +5,20 @@ public class Q7_2SumQ {
     static void sum(int[] arr, int k) {
         boolean flag = true;
 
-        for(int i =0; i<arr.length; i++){
-            for(int j =1; j<arr.length; j++){
-                if (arr[i]+arr[j]==k) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 1; j < arr.length; j++) {
+                if (arr[i] + arr[j] == k) {
                     System.out.printf("Sum found at Index %d and %d: ", i, j);
-                    
-                }
-                else{
+
+                } else {
                     flag = false;
-                    
+
                 }
             }
         }
-        if (flag==false) {
+        if (flag == false) {
             System.out.println("Not found");
         }
-        
 
     }
 
@@ -36,7 +34,7 @@ public class Q7_2SumQ {
             arr[i] = sc.nextInt();
         }
         System.out.println("Enter Target: ");
-        int k=sc.nextInt();
+        int k = sc.nextInt();
         sum(arr, k);
 
     }
