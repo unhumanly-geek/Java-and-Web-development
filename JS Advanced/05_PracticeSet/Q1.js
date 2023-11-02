@@ -2,3 +2,6 @@
 let a = "Akshat"
 let b = 6;
 console.log(a+b);
+
+// q2
+console.log(typeof(a+b));
