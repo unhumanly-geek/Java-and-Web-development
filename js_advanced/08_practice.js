@@ -16,9 +16,13 @@
 // problem-3
 
 let a = prompt("Enter the number: ")
-if (a%2) {
+        a = Number.parseInt(a);
+if (a%2==0) {
     console.log("divisible by 2");
 }
-else{
+else if (a%3==0) {
     console.log("divisible by 3");
+}
+else{
+    console.log("not");
 }
