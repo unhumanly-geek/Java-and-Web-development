@@ -15,14 +15,19 @@
 
 // problem-3
 
-let a = prompt("Enter the number: ")
-        a = Number.parseInt(a);
-if (a%2==0) {
-    console.log("divisible by 2");
-}
-else if (a%3==0) {
-    console.log("divisible by 3");
-}
-else{
-    console.log("not");
-}
+// let a = prompt("Enter the number: ")
+//         a = Number.parseInt(a);
+// if (a%2==0) {
+//     console.log("divisible by 2");
+// }
+// else if (a%3==0) {
+//     console.log("divisible by 3");
+// }
+// else{
+//     console.log("not");
+// }
+
+// problem-4
+let a = prompt("Enter your age")
+a = Number.parseInt(a);
+console.log("you can", a<=18 ? "drive" : "not drive" );
