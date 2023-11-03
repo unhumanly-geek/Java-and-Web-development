@@ -9,3 +9,6 @@ for(let i =0; i<a; i++){
 }
 console.log(students);
 
+for (let i = 0; i < Object.keys(students).length; i++) {
+    console.log("The marks of: " + Object.keys(students)[i], " :are: " + students[Object.keys(students)[i]]);
+}
