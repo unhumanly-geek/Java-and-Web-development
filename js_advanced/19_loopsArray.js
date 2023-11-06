@@ -9,3 +9,7 @@ num.forEach((element)=>{
 let name = "Akshat"
 let arr = Array.from(name)
 console.log(arr);
+// for...of
+for (let i of num){
+    console.log(i);
+}
