@@ -22,3 +22,10 @@ a1 = arr.map((value)=>{
     return value*value
 })
 console.log(a1);
+
+//problem 5
+let a = [1,2,3,4]
+let n = a.reduce((x1, x2)=>{
+    return x1*x2
+})
+console.log("fact: "+n);
