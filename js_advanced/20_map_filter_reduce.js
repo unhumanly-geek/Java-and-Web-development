@@ -20,3 +20,9 @@ let newArr3 = arr3.reduce((h1,h2)=>{
     return h1+h2
 })
 console.log(newArr3);
+// reduce alernate method
+const reduce_func = (h1,h2) =>{
+    return h1+h2
+}
+let newarr3 = arr3.reduce(reduce_func)
+console.log(newarr3);
