@@ -13,3 +13,13 @@ console.log(arr);
 for (let i of num){
     console.log(i);
 }
+// for...in
+
+// gives keys
+for(let i in num){
+    console.log(i);
+}
+// for pair
+for(let i in num){
+    console.log(num[i]);
+}
