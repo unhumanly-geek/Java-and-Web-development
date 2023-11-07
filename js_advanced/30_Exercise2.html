@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let arr = ["snake", "water", "gun"];
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+    function game(random) {
+        let a = arr[random]
+        console.log(a);
+        let b = prompt("Enter s/w/g here")
+        if (a == b) {
+            alert("You won")
+        }
+        else {
+            alert("wrong input")
+        }
+    }
+    let random = getRandomInt(0, arr.length - 1);
+    let result = game(random)
+
+    let b = true
+    while (b) {
+        b = confirm("Do you wish to continue ?")
+        if (b) {
+            let random = getRandomInt(0, arr.length - 1);
+            let result = game(random)
+        }
+        else {
+            alert("Thanks for playing")
+        }
+    }
+
+</script>
+
+</html>
